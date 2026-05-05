@@ -1,0 +1,143 @@
+{
+  "attempts": 6,
+  "checkpoint_id": "ckpt_1e48de7f",
+  "durable_promotions": [],
+  "durable_rejections": [],
+  "durable_superseded": [],
+  "final_answer": "Stopped after reaching the step limit without a final answer.",
+  "prompt_metadata": {
+    "budget_reductions": [],
+    "cache_hit": true,
+    "cached_tokens": 1024,
+    "current_request": {
+      "raw_chars": 17,
+      "rendered_chars": 17,
+      "section_chars": 39,
+      "text": "\u4f60\u6765\u7b80\u8981\u5206\u6790\u4e00\u4e0b\u8fd9\u4e2a\u9879\u76ee\u7b2c\u4e00\u4e2a\u6587\u4ef6"
+    },
+    "history": {
+      "collapsed_duplicate_reads": 1,
+      "older_entries_count": 5,
+      "raw_chars": 33446,
+      "rendered_chars": 5180,
+      "reused_file_summary_count": 3,
+      "summarized_tool_count": 2
+    },
+    "history_chars": 6180,
+    "input_tokens": 3203,
+    "memory_chars": 578,
+    "output_tokens": 28,
+    "prefix_changed": false,
+    "prefix_chars": 6676,
+    "prefix_hash": "1cfe76d8fbdc905b37dfbcb56807b7ed39dcf436ec72f32a2455703b650ddf21",
+    "prompt_budget_chars": 12000,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "prompt_cache_supported": false,
+    "prompt_chars": 9428,
+    "prompt_over_budget": false,
+    "recent_commits": 0,
+    "reduction_order": [
+      "relevant_memory",
+      "history",
+      "memory",
+      "prefix"
+    ],
+    "relevant_memory": {
+      "limit": 3,
+      "raw_chars": 23,
+      "rendered_chars": 23,
+      "rendered_count": 0,
+      "rendered_notes": [],
+      "selected_count": 0,
+      "selected_durable_count": 0,
+      "selected_kinds": [],
+      "selected_notes": [],
+      "selected_sources": []
+    },
+    "request_chars": 17,
+    "resume_status": "full-valid",
+    "runtime_identity_mismatch_fields": [],
+    "secret_env_count": 2,
+    "secret_env_names": [
+      "DASHSCOPE_API_KEY",
+      "OPENAI_API_KEY"
+    ],
+    "section_budgets": {
+      "current_request": null,
+      "history": 5200,
+      "memory": 1600,
+      "prefix": 3600,
+      "relevant_memory": 1200
+    },
+    "section_order": [
+      "prefix",
+      "memory",
+      "relevant_memory",
+      "history",
+      "current_request"
+    ],
+    "sections": {
+      "current_request": {
+        "budget_chars": null,
+        "raw_chars": 39,
+        "rendered_chars": 39
+      },
+      "history": {
+        "budget_chars": 5200,
+        "raw_chars": 33446,
+        "rendered_chars": 5180
+      },
+      "memory": {
+        "budget_chars": 1600,
+        "raw_chars": 578,
+        "rendered_chars": 578
+      },
+      "prefix": {
+        "budget_chars": 3600,
+        "raw_chars": 6930,
+        "rendered_chars": 3600
+      },
+      "relevant_memory": {
+        "budget_chars": 1200,
+        "raw_chars": 23,
+        "rendered_chars": 23
+      }
+    },
+    "stale_paths": [],
+    "stale_summary_invalidations": 0,
+    "tool_count": 7,
+    "tool_signature": "4426765ffaaf28349778456b4696f3dae2f5ff87eb4b74ad4e8c4e86ee0437fb",
+    "total_tokens": 3231,
+    "workspace_changed": false,
+    "workspace_chars": 4017,
+    "workspace_docs": 3,
+    "workspace_fingerprint": "47aabcb231024b6a2e8abe7f3215670a9717b952a4650e95dfe4d7a1bb5c40c0"
+  },
+  "redacted_env": {
+    "secret_env_count": 2,
+    "secret_env_names": [
+      "DASHSCOPE_API_KEY",
+      "OPENAI_API_KEY"
+    ]
+  },
+  "resume_status": "full-valid",
+  "run_id": "run_20260429-223521-000597",
+  "status": "stopped",
+  "stop_reason": "step_limit_reached",
+  "task_id": "task_20260429-223521-136744",
+  "task_state": {
+    "attempts": 6,
+    "checkpoint_id": "ckpt_1e48de7f",
+    "final_answer": "Stopped after reaching the step limit without a final answer.",
+    "last_tool": "read_file",
+    "resume_status": "full-valid",
+    "run_id": "run_20260429-223521-000597",
+    "status": "stopped",
+    "stop_reason": "step_limit_reached",
+    "task_id": "task_20260429-223521-136744",
+    "tool_steps": 6,
+    "user_request": "\u4f60\u6765\u7b80\u8981\u5206\u6790\u4e00\u4e0b\u8fd9\u4e2a\u9879\u76ee\u7b2c\u4e00\u4e2a\u6587\u4ef6"
+  },
+  "tool_steps": 6
+}

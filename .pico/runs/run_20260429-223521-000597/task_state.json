@@ -1,0 +1,13 @@
+{
+  "attempts": 6,
+  "checkpoint_id": "ckpt_87a8d368",
+  "final_answer": "Stopped after reaching the step limit without a final answer.",
+  "last_tool": "read_file",
+  "resume_status": "full-valid",
+  "run_id": "run_20260429-223521-000597",
+  "status": "stopped",
+  "stop_reason": "step_limit_reached",
+  "task_id": "task_20260429-223521-136744",
+  "tool_steps": 6,
+  "user_request": "\u4f60\u6765\u7b80\u8981\u5206\u6790\u4e00\u4e0b\u8fd9\u4e2a\u9879\u76ee\u7b2c\u4e00\u4e2a\u6587\u4ef6"
+}
